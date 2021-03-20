@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 387508431
+CRC: 4262612716
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: db12aec161f7fd61a3fbae616a0af085
+    Hash: d3d4ad1390cf85a10e9b72c7ca055bda
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1878bf2325d74aeb244a7ba54180c879
+    Hash: 111e062b8ab1590d41d711db7cb4ca44
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,7 +25,15 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
 - Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 1384774831, guid: b832706c2c161dc4abd458dabf0a8ed9, type: 3}
@@ -42,5 +50,5 @@ ClassTypes:
 - Class: 330
   Script: {instanceID: 0}
 Assets:
-- Assets/PlayMaker/Resources/MyPrefab/75f29c82-0b3a-4ad2-8297-7d7e873fcd07.prefab
+- Assets/Material data/myprefa/d822316c-9f4f-4ac3-93b0-f7c1f45cc81c.prefab
 Dependencies: []
