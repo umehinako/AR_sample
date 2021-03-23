@@ -236,7 +236,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101010001
-        actionIsOpen: 0000010000000000
+        actionIsOpen: 0001010000000000
         actionStartIndex: 000000000300000006000000090000000c00000012000000180000001b000000
         actionHashCodes: 603dd9052ee017042ee017042ee01704dfd72a0460532301090b890109faa102
         unityObjectParams: []
@@ -290,7 +290,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.5
+          value: 0.3
         - useVariable: 1
           name: X
           tooltip: 
@@ -991,7 +991,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -0.5
+          value: -0.3
         - useVariable: 1
           name: X
           tooltip: 
