@@ -709,7 +709,6 @@ GameObject:
   m_Component:
   - component: {fileID: 194800351}
   - component: {fileID: 194800353}
-  - component: {fileID: 194800352}
   m_Layer: 0
   m_Name: background Camera
   m_TagString: MainCamera
@@ -731,14 +730,6 @@ Transform:
   m_Father: {fileID: 963194228}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &194800352
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194800350}
-  m_Enabled: 1
 --- !u!20 &194800353
 Camera:
   m_ObjectHideFlags: 0
@@ -2112,6 +2103,21 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2978205410356607408, guid: 9a376bc8b52d8914a871bae061bc5dc2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826554145780108897, guid: 9a376bc8b52d8914a871bae061bc5dc2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826554145780108897, guid: 9a376bc8b52d8914a871bae061bc5dc2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6473860203226343221, guid: 9a376bc8b52d8914a871bae061bc5dc2,
         type: 3}
       propertyPath: m_Color.a
@@ -2211,6 +2217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826361941226244270, guid: 9a376bc8b52d8914a871bae061bc5dc2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.233
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a376bc8b52d8914a871bae061bc5dc2, type: 3}
