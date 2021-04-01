@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3399128835
+CRC: 593487982
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 58e2bc147f356746e64715418fe859d7
+    Hash: 2ff1c13979e77fd6c1f09c6609011947
   TypeTreeHash:
     serializedVersion: 2
     Hash: a4b7fac442a33583125a2e44b20c6270
@@ -68,5 +68,5 @@ ClassTypes:
 - Class: 330
   Script: {instanceID: 0}
 Assets:
-- Assets/Material data/myprefa/e535b987-0b39-49be-a26f-0e7d09e859ab.prefab
+- Assets/Material data/myprefa/679416b8-f8ae-4a10-96ac-5d0dbcb6c402.prefab
 Dependencies: []
