@@ -712,7 +712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705174193}
   m_Layer: 0
-  m_Name: OP4_postionset
+  m_Name: OP_step4_postion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4190,7 +4190,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101010101
-        actionIsOpen: 0001000000000000
+        actionIsOpen: 0000000000000000
         actionStartIndex: 00000000080000000b0000000e00000011000000170000001a00000020000000
         actionHashCodes: 6ab449042ee017042ee017042ee01704dfd72a04603dd9056053230109faa102
         unityObjectParams: []
@@ -4610,18 +4610,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &2311279049896081744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2311279049896081750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: b832706c2c161dc4abd458dabf0a8ed9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2311279049896081745
 Transform:
   m_ObjectHideFlags: 0
@@ -5207,9 +5195,8 @@ GameObject:
   - component: {fileID: 2311279049896081757}
   - component: {fileID: 2311279049896081746}
   - component: {fileID: 2311279049896081747}
-  - component: {fileID: 2311279049896081744}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Logo_glitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
