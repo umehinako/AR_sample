@@ -4188,6 +4188,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.RandomFloat
+        - HutongGames.PlayMaker.Actions.SetRotation
         - HutongGames.PlayMaker.Actions.SetVector3XYZ
         - HutongGames.PlayMaker.Actions.IntAdd
         - HutongGames.PlayMaker.Actions.CreateObject
@@ -4200,10 +4201,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 00000000000000
-        actionStartIndex: 000000000300000006000000090000000f0000001200000018000000
-        actionHashCodes: 2ee017042ee017042ee01704dfd72a04603dd9056053230109faa102
+        - 
+        actionEnabled: 0101010001010101
+        actionIsOpen: 0000000000000100
+        actionStartIndex: 0000000003000000060000000900000012000000180000001b00000021000000
+        actionHashCodes: 2ee017042ee017042ee01704979e4104dfd72a04603dd9056053230109faa102
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -4231,7 +4233,16 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 4889484303018551912, guid: 4afa43cfe0e13f34996c04eb94499ac7,
+              type: 3}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -4299,6 +4310,24 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 90
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
           name: X
           tooltip: 
           showInInspector: 0
@@ -4345,13 +4374,7 @@ MonoBehaviour:
         fsmVector2Params: []
         fsmVector3Params:
         - useVariable: 1
-          name: POS
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: 
+          name: Rote
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4364,23 +4387,41 @@ MonoBehaviour:
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1
           name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: POS
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Rote
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
-        fsmQuaternionParams: []
+        fsmQuaternionParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0, w: 0}
         stringParams:
         - 
         - automatic
         - 
-        byteData: 000000
+        byteData: 000000000001000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000001c0000001c0000000f0000000f0000000f000000010000001000000010000000010000001300000013000000130000001c0000001c00000013000000100000001000000017000000170000001700000001000000
+        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f00000014000000230000001c0000000f0000000f0000000f0000000700000001000000010000001c0000001c0000000f0000000f0000000f000000010000001000000010000000010000001300000013000000130000001c0000001c00000013000000100000001000000017000000170000001700000001000000
         paramName:
         - min
         - max
@@ -4391,6 +4432,15 @@ MonoBehaviour:
         - min
         - max
         - storeResult
+        - gameObject
+        - quaternion
+        - vector
+        - xAngle
+        - yAngle
+        - zAngle
+        - space
+        - everyFrame
+        - lateUpdate
         - vector3Variable
         - vector3Value
         - x
@@ -4412,8 +4462,8 @@ MonoBehaviour:
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 0000000001000000020000000300000004000000050000000600000007000000080000000000000001000000090000000a0000000b00000000000000000000000100000001000000000000000100000002000000020000000300000003000000020000000300000000000000010000000200000002000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000100000002000000030000000400000005000000060000000700000008000000000000000000000000000000090000000a0000000b00000000000000040000000500000001000000020000000c0000000d0000000e00000006000000000000000100000007000000000000000100000002000000030000000400000003000000020000000300000000000000010000000200000008000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000100000001000000000000000000000000000000000000000000000001000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: automatic
       isSystemEvent: 0
@@ -4456,6 +4506,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: Rote
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
@@ -4467,7 +4523,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -10045,7 +10101,7 @@ Transform:
   m_GameObject: {fileID: 2311279050307279615}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.215, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.5, z: 0.3}
+  m_LocalScale: {x: 0.6, y: 1.5, z: 0.3}
   m_Children: []
   m_Father: {fileID: 2311279050435867999}
   m_RootOrder: 1
@@ -10285,7 +10341,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 2
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -10372,7 +10428,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2
+          value: 1.6
         - useVariable: 0
           name: 
           tooltip: 
@@ -10575,7 +10631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2311279050417251840
 GameObject:
   m_ObjectHideFlags: 0
